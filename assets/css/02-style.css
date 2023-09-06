@@ -1,0 +1,40 @@
+nav {
+  padding: 1rem;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+.alert ul,
+.alert p,
+.warning ul,
+.warning p {
+  margin: 0;
+  padding: 0;
+}
+
+.alert ul > li {
+  list-style: none;
+}
+.alert ul + p {
+  margin-top: 1rem;
+}
+.alert ul ~ p {
+  margin-top: 1rem;
+}
+
+.navbar a:hover {
+  background-color: darkcyan;
+}
+.navbar a::before {
+  content: "*";
+}

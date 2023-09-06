@@ -1,0 +1,14 @@
+body {
+  background-color: darkgoldenrod;
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: darkslateblue;
+}
+
+article {
+  text-align: center;
+  color: darkturquoise;
+}
