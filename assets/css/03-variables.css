@@ -1,4 +1,24 @@
+body {
+  background-color: darkkhaki;
+}
+
 input {
+  background-color: darkcyan;
+  color: white;
+  border: none;
+  height: 45px;
+  border-radius: 6px;
+}
+
+button {
+  color: crimson;
+  height: 50px;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
   background-color: darkcyan;
   color: white;
 }

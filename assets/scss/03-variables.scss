@@ -1,7 +1,32 @@
 $colorBg: darkcyan;
 $colorText: white;
+$colorPrimary: crimson;
+$borderCrimson: 1px solid $colorPrimary;
+$bodyBackgroundColor: darkkhaki;
+
+body{
+    background-color: $bodyBackgroundColor;
+}
 
 input {
     background-color: $colorBg;
     color: $colorText;
+    border: none;
+    height: 45px;
+    border-radius: 6px;
+}
+
+button {
+    color: $colorPrimary;
+    height: 50px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+    &:hover {
+        background-color: $colorBg;
+        color: $colorText;
+    }
 }
