@@ -1,0 +1,23 @@
+h1 {
+  color: darkcyan;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  padding: 0.5rem 1rem;
+  border: 1px solid darkkhaki;
+  border-radius: 5px;
+}
+
+button {
+  height: 46px;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}

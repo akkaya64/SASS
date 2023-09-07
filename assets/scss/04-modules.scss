@@ -1,0 +1,25 @@
+@use "variables" as v;
+
+h1 {
+    color: v.$colorPrimary;
+    text-align: center;
+}
+div {
+    text-align: center;
+}
+input {
+    width: 250px;
+    height: 30px;
+    padding: v.$padding;
+    border: v.$border;
+    border-radius: v.$borderRadius;
+    
+}
+
+button {
+    height: 46px;
+    border: none;
+    border-radius: v.$borderRadius;
+    padding: v.$padding;
+ 
+}
